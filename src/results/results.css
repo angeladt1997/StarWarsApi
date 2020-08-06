@@ -1,0 +1,11 @@
+  
+li {
+    margin-left: 0;
+    border-bottom: oldlace 2px double;
+    text-align: start;
+}
+
+.displayResults {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
