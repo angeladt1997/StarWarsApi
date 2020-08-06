@@ -66,19 +66,19 @@ export class App extends Component {
     
     return (
       <main className={(this.state.loading || this.state.waiting) ? 'searching' : ''}>
-      <h1>Bounty Hunter Googlex </h1>
+      <h1>Into the Spiderverse </h1>
       <div role="search">
             <form className="searchBar" onSubmit={e => this.searchChanged(e)}>
                 <label htmlFor="searchType">Select bounty type:</label>
                 <select id="searchType" name="searchType">
-                  <option value="people">people</option>
-                  <option value="films">films</option>
+                  <option value="people">folks</option>
+                  <option value="films">flicks</option>
                   <option value="planets">planets</option>
                   <option value="species">species</option>
-                  <option value="starships">starships</option>
-                  <option value="vehicles">vehicles</option>
+                  <option value="starships">zoom zoom ships</option>
+                  <option value="vehicles">whips</option>
                 </select>
-                <label htmlFor="searchTerm" >Enter chain code:</label>
+                <label htmlFor="searchTerm" >What it is you looking for?:</label>
                 <input type="searchTerm" name="searchTerm" id="searchTerm" defaultValue="Skywalker"></input>
                 <button type="submit">Search the Galaxy</button>
                 </form>
